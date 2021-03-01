@@ -8,7 +8,7 @@ const Root = require('../src/Operations/Root');
 
 test('Test of Calculation Instantiation', () => {
     //Test the instantiation of the calculation object
-    let op = Sum
+    let op = Sum;
     let calculation = new Calculation(1,2,op);
     expect(calculation.a).toBe(1);
     expect(calculation.b).toBe(2);
